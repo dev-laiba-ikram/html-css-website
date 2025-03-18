@@ -1,0 +1,94 @@
+/* .animation {
+  background-image: url(../img/image2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 600px;
+  height: 200px;
+  animation: user infinite 3s;
+  background-color: blanchedalmond;
+  position: absolute;
+}
+
+@keyframes user {
+  from {
+    top: 0px;
+    left: 0;
+    background-color: red;
+    width: 0px;
+  }
+  to {
+    left: 400px;
+    top: 200px;
+    background-color: blue;
+    width: 600px;
+  }
+} */
+
+/************ GRID SECTION************ */
+/* .main {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 30px;
+ 
+}
+
+img {
+  width: 100%;
+}
+
+.div1 {
+  height: 200px;
+  width: auto;
+  background-color: red;
+  grid-column: 1/-1;
+}
+
+.div2 {
+  height: 200px;
+  width: auto;
+  background-color: blue;
+  grid-column: 1/-1;
+}
+.div3 {
+  height: 200px;
+  background-color: green;
+}
+.div4 {
+  height: 200px;
+  background-color: aqua;
+}
+.div5 {
+  height: 100px;
+
+  background-color: palegreen;
+}
+.div6 {
+  height: 200px;
+  background-color: maroon;
+}
+ */
+
+/* transform ---4 properties */
+
+.box {
+  height: 200px;
+  width: 300px;
+  background-color: blue;
+  margin: 100px 0 0 500px;
+  transition: 3s;
+  border-radius: 50%;
+  &:hover {
+    /* rotateX === for x axis rotation 
+    rotateY === for y axis rotation
+    */
+    /* transform: rotate(360deg); */
+    /* transform: skewY(90deg); */
+    /* transform: scale(-1.1); */
+    /*scale incerese the sixe and zoon in the div  */
+
+    transform: translate(300px, -300px);
+  }
+}
+
+/* for circle propr rotation need 360 */
+/* for squer it require 180 */
